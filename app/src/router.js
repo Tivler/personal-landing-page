@@ -9,12 +9,18 @@ export default new Router({
         {
             path: '/',
             name: 'home',
-            component: Home
+            component: Home,
+            meta: {
+                title: 'Home | Thomas McKyer'
+            }
         },
         {
             path: '/about',
             name: 'about',
-            component : () => import('./views/About.vue')
+            component : () => import('./views/About.vue'),
+            meta: {
+                title: 'About | Thomas McKyer'
+            }
         }
     ]
 })
