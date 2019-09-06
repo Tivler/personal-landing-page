@@ -41,6 +41,10 @@ export default {
     display: flex;
     justify-content: center;
     margin: 10px 0 0 0;
+
+    @media only screen and (max-width: 550px){
+     display: none;
+    }
     
      &--link {
         font-size: 1em;
@@ -61,8 +65,12 @@ export default {
 .divider {
     margin: 0 20px;
 
+    @media only screen and (max-width: 550px){
+      margin: 0;
+    }
+
     &--two {
-        margin: 0 20px 0 0;
+      margin: 0 20px 0 0;
     }
 }
 </style>

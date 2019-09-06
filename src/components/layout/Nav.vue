@@ -43,6 +43,10 @@ export default {
       z-index: 1;
       transition: all 0.5s;
 
+      @media only screen and (max-width: 550px){
+        font-size: 1rem;
+      }
+
       &:hover {
         color:#f80;
         z-index: 1;

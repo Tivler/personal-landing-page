@@ -1,8 +1,8 @@
 <template>
   <section class="about">
-      <Nav name="Return Home" path="/"  v-animate-css="bounceFour"/>
-      <Content v-animate-css="bounceThree" />
-      <Socials v-animate-css="bounceTwo" />
+      <Content v-animate-css="bounceFour" />
+      <Socials v-animate-css="bounceThree" />
+      <Nav name="Return Home" path="/"  v-animate-css="bounceTwo"/>
       <Copyright v-animate-css="bounceOne" />
   </section>
 </template>
@@ -49,5 +49,19 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.about {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #333;
 
+        @media only screen and (max-width: 1500px) and (max-height: 850px) {
+           height: 100%;
+        }
+
+        @media only screen and (max-width: 550px) and (max-height: 850px) {
+           height: 100%;
+        }
+    }
 </style>

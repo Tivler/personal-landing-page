@@ -1,6 +1,6 @@
 <template>
   <header class="head">
-    <img class="head__avi" src="assets/me4.jpg" alt="Thomas McKyer" />
+    <img class="head__avi" src="assets/avi.jpg" alt="Thomas McKyer" />
     <h1 class="head__title">{{ name }}</h1>
     <p class="head__subtitle">
         {{ title }}
@@ -28,10 +28,18 @@ export default {
 
 .head {
     text-align: center;
+    
+    @media only screen and (max-width: 1500px) and (max-height: 850px) {
+        margin-top: 50px;
+    }
 
     &__avi {
         height: 200px;
         border-radius: 5px;
+
+        @media only screen and (max-width: 550px){
+            height: 180px;
+        }
     }
 
     &__title {
@@ -40,6 +48,14 @@ export default {
         color: #fff;
         font-weight: 700;
         margin: 15px 0;
+
+        @media only screen and (max-width: 550px){
+            font-size: 2.5em;
+        }
+
+        @media only screen and (max-width: 350px){
+            font-size: 2em;
+        }
     }
 
     &__subtitle {
@@ -47,6 +63,12 @@ export default {
         font-weight: 300;
         color: rgb(193, 193, 193);
         margin: 0 auto 30px;
+
+        @media only screen and (max-width: 550px){
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+        }
     }
 }
 

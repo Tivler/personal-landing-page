@@ -22,14 +22,5 @@ export default {
 
   #app {
     font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #333;
-  }
-
-  body {
-    overflow: hidden;
   }
 </style>
