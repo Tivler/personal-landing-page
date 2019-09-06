@@ -1,6 +1,6 @@
 <template>
   <header class="head">
-    <!-- <img class="head__avi" src="assets/me2.jpg" alt="Thomas McKyer" /> -->
+    <img class="head__avi" src="assets/me4.jpg" alt="Thomas McKyer" />
     <h1 class="head__title">{{ name }}</h1>
     <p class="head__subtitle">
         {{ title }}
@@ -39,7 +39,7 @@ export default {
         letter-spacing: -1px;
         color: #fff;
         font-weight: 700;
-        margin: 13px 0;
+        margin: 15px 0;
     }
 
     &__subtitle {

@@ -2,7 +2,7 @@
   <nav class="nav">
     <ul class="nav__list">
       <li class="nav__list--item">
-        <a class="nav__list--link" href="./about.html">About Me</a>
+          <router-link class="nav__list--link" :to="{ path }">{{ name }}</router-link>
       </li>
        <li class="nav__list--item">
         <a class="nav__list--link" href="https://www.slideshare.net/slideshow/embed_code/key/17KDm2WISLftaf" target="_blank">Resume</a>
@@ -13,13 +13,17 @@
 
 <script>
 export default {
-  name: "Nav"
+  name: "Nav",
+  props: [
+    'name',
+    'path'
+  ]
 };
 </script>
 
 <style lang="scss" scoped>
 .nav {
-  padding: 50px 0;
+  padding: 50px 0 0 0;
   text-align: center;
 
   &__list {

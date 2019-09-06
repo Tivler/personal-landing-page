@@ -11,9 +11,14 @@
         LinkedIn
       </a>
 
+      <a href="https://www.instagram.com/tmckyer/" target="_blank" class="social--link divider--two">
+        <font-awesome-icon :icon="['fab', 'instagram']" class="social--icon" />
+        Instagram
+      </a>
+
       <a href="mailto:thomasdmckyer@gmail.com" class="social--link">
         <font-awesome-icon :icon="['fab', 'google-plus-square']" class="social--icon" />
-        Email
+        Email Me
       </a>
 
   </section>
@@ -35,8 +40,8 @@ export default {
 .social {
     display: flex;
     justify-content: center;
-    padding-top: 5px;
-
+    margin: 10px 0 0 0;
+    
      &--link {
         font-size: 1em;
         color: #e1e1e1;
@@ -55,5 +60,9 @@ export default {
 
 .divider {
     margin: 0 20px;
+
+    &--two {
+        margin: 0 20px 0 0;
+    }
 }
 </style>

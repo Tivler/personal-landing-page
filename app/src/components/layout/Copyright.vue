@@ -17,6 +17,7 @@ export default {
   text-align: center;
   width: 25%;
   margin: 0 auto;
+  margin-top: 50px;
 
     &__copyright {
       color: #fff;
