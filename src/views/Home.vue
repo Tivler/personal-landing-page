@@ -47,8 +47,7 @@ export default {
 };
 </script>
 
-<style scoped>
-
+<style lang="scss" scoped>
 * {
   margin: 0;
   padding: 0;
@@ -63,6 +62,9 @@ export default {
   justify-content: center;
   overflow: hidden;
   background-color: #333;
-}
 
+  @media only screen and (max-width: 900px) and (max-height: 550px) {
+    height: 100%;
+  }
+}
 </style>
