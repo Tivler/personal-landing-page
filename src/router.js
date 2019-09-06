@@ -22,5 +22,6 @@ export default new Router({
                 title: 'About | Thomas McKyer'
             }
         }
-    ]
+    ],
+    mode: 'history'
 })
