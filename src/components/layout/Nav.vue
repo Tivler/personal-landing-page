@@ -13,7 +13,7 @@
 
 <script>
 export default {
-  name: 'Nav',
+  name: "Nav",
   props: [
     'name',
     'path'
