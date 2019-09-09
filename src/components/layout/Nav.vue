@@ -5,7 +5,7 @@
           <router-link class="nav__list--link" :to="{ path }">{{ name }}</router-link>
       </li>
        <li class="nav__list--item">
-        <a class="nav__list--link" href="https://www.slideshare.net/slideshow/embed_code/key/17KDm2WISLftaf" target="_blank">Resume</a>
+        <a class="nav__list--link" href="https://www.slideshare.net/slideshow/embed_code/key/HJCUHAr5X5HCOT" target="_blank">Resume</a>
       </li>
     </ul>
   </nav>
