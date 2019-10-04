@@ -1,6 +1,6 @@
 <template>
   <header class="head">
-    <img class="head__avi" src="assets/avi.jpg" alt="Thomas McKyer" />
+    <!-- <img class="head__avi" src="assets/avi.jpg" alt="Thomas McKyer" /> -->
     <h1 class="head__title">{{ name }}</h1>
     <p class="head__subtitle">
         {{ title }}
