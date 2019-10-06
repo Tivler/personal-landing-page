@@ -1,45 +1,45 @@
 <template>
-  <section class="about">
-      <Content v-animate-css="bounceFour" />
-      <Socials v-animate-css="bounceThree" />
-      <Nav name="Return Home" path="/"  v-animate-css="bounceTwo"/>
-      <Copyright v-animate-css="bounceOne" />
+  <section class="aboutme">
+      <AboutMe v-animate-css="bounceOne" />
+      <Socials v-animate-css="bounceTwo" />
+      <Nav name="Return Home" path="/"  v-animate-css="bounceThree"/>
+      <Copyright v-animate-css="bounceFour" />
   </section>
 </template>
 
 <script>
-import Nav from '../components/layout/Nav';
-import Content from '../components/Content';
-import Socials from '../components/Socials';
-import Copyright from '../components/layout/Copyright';
+import Nav from '../components/core/Nav';
+import AboutMe from '../components/feature/AboutMe';
+import Socials from '../components/feature/Socials';
+import Copyright from '../components/core/Copyright';
 
 export default {
     name: 'About',
     components: {
         Nav,
-        Content,
+        AboutMe,
         Socials,
         Copyright
     },
     data() {
         return {
             bounceOne: {
-                classes: 'bounceInDown',
-                duration: 900
+                classes: 'bounceInUp',
+                duration: 800
             },
             bounceTwo: {
-                classes: 'bounceInDown',
+                classes: 'bounceInUp',
                 duration: 900,
                 delay: 200
             },
             bounceThree: {
-                classes: 'bounceInDown',
+                classes: 'bounceInUp',
                 duration: 900,
                 delay: 400
             },
             bounceFour: {
-                classes: 'bounceInDown',
-                duration: 800,
+                classes: 'bounceInUp',
+                duration: 900,
                 delay: 600
             },
         }
@@ -49,19 +49,18 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.about {
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        background-color: #333;
+.aboutme {
+    font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
-        @media only screen and (max-width: 1500px) and (max-height: 850px) {
-           height: 100%;
-        }
-
-        @media only screen and (max-width: 550px) and (max-height: 850px) {
-           height: 100%;
-        }
+    @media only screen and (max-height: 700px) and (max-width: 825px) {
+        display: initial;
     }
+}
 </style>

@@ -11,7 +11,7 @@ export default new Router({
             name: 'home',
             component: Home,
             meta: {
-                title: 'Home | Thomas McKyer'
+                title: "Home | Thomas McKyer"
             }
         },
         {
@@ -19,7 +19,15 @@ export default new Router({
             name: 'about',
             component : () => import('./views/About.vue'),
             meta: {
-                title: 'About | Thomas McKyer'
+                title: "About | Thomas McKyer"
+            }
+        },
+        {
+            path: '/resume',
+            name: 'resume',
+            component : () => import('./views/Resume.vue'),
+            meta: {
+                title: "Resume | Thomas McKyer"
             }
         }
     ],
