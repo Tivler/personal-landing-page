@@ -5,7 +5,7 @@
       Hey, I’m Thomas! I am a Software Developer - I was born and raised here in Charlotte, North Carolina and I’m currently studying and working with Road To Hire as an Apprentice Software Developer. 
       I grew up like most people from my generation with a controller in one hand and an iPhone in the other, so without saying I’ve always had an interest in technology and a strong passion for creating. 
       Over the past few years I’ve been developing my skills as a Front End Developer learning all the ins and outs of web development specifically building unique and intuitive user experiences via Front End Frameworks like Vue and React. 
-      I keep myself busy these days building interactive web applications with friends and helping others find a passion for technology as well as the time I spend with Road To Hire learning more and more about the industry. 
+      I keep myself busy these days building interactive web applications with friends and helping others find a passion for technology as well as the time I spend with Road To Hire learning more about the industry. 
     </p>
   </section>
 </template>
@@ -47,6 +47,7 @@ export default {
             margin-bottom: 0;
         }
 
+
         &__title {
             font-size: 2.5em;
             letter-spacing: -1px;
@@ -70,22 +71,13 @@ export default {
             letter-spacing: .4px;
 
              @media only screen and (max-width: 1500px) and (max-height: 850px) {
-              font-size: 1.12em;
+              font-size: 1.22em;
             }
 
             @media only screen and (max-width: 800px){
-              font-size: 1em;
+              font-size: 1.08em;
               line-height: 1.5;
-            }
-
-
-            @media only screen and (max-width: 400px){
-              line-height: 1.2;
-            }
-
-
-            @media only screen and (max-width: 300px){
-              line-height: 1.1;
+              letter-spacing: 0;
             }
         }
     }

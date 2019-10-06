@@ -50,10 +50,17 @@ export default {
 
 <style lang="scss" scoped>
 .aboutme {
-    height: inherit;
+    font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #333;
+
+    @media only screen and (max-height: 700px) and (max-width: 825px) {
+        display: initial;
+    }
 }
 </style>
