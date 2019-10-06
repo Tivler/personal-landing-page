@@ -4,7 +4,7 @@
         <NavLink name="Home" path="/" />
         <!-- <NavLink name="Projects" path="/about" /> -->
         <NavLink name="About Me" path="/about" />
-        <NavLink name="Resume" path="/resume" />
+        <!-- <NavLink name="Resume" path="/resume" /> -->
     </ul>
   </nav>
 </template>

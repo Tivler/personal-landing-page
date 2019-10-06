@@ -21,29 +21,29 @@ export default {
     Nav,
     Copyright
   },
-   data() {
-        return {
-            bounceOne: {
-                classes: 'bounceInUp',
-                duration: 800
-            },
-            bounceTwo: {
-                classes: 'bounceInUp',
-                duration: 900,
-                delay: 200
-            },
-            bounceThree: {
-                classes: 'bounceInUp',
-                duration: 900,
-                delay: 400
-            },
-            bounceFour: {
-                classes: 'bounceInUp',
-                duration: 900,
-                delay: 600
-            },
-        }
+  data() {
+    return {
+      bounceOne: {
+          classes: 'bounceInUp',
+          duration: 800
+      },
+      bounceTwo: {
+          classes: 'bounceInUp',
+          duration: 900,
+          delay: 200
+      },
+      bounceThree: {
+          classes: 'bounceInUp',
+          duration: 900,
+          delay: 400
+      },
+      bounceFour: {
+          classes: 'bounceInUp',
+          duration: 900,
+          delay: 600
+      },
     }
+  }
 };
 </script>
 

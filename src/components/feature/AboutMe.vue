@@ -2,10 +2,10 @@
   <section class="about">
     <h2 class="about__title">About Me</h2>
     <p class="about__text">
-      Hey, I’m Thomas! I am a Software Developer - I was born and raised here in Charlotte, North Carolina and I’m currently studying and working with Road To Hire as an Apprentice Software Developer. 
+      Hey, I’m Thomas! I am a Software Developer - I was born and raised here in Charlotte, I’m currently studying and working with Road To Hire as an Apprentice Software Developer. 
       I grew up like most people from my generation with a controller in one hand and an iPhone in the other, so without saying I’ve always had an interest in technology and a strong passion for creating. 
       Over the past few years I’ve been developing my skills as a Front End Developer learning all the ins and outs of web development specifically building unique and intuitive user experiences via Front End Frameworks like Vue and React. 
-      I keep myself busy these days building interactive web applications with friends and helping others find a passion for technology as well as the time I spend with Road To Hire learning more about the industry. 
+      I keep myself busy building interactive web applications with friends and helping others find a passion for technology as well as the time I spend with Road To Hire learning more about the industry. 
     </p>
   </section>
 </template>
