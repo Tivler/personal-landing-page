@@ -1,22 +1,22 @@
 <template>
   <section class="social">
 
-      <a href="https://github.com/tivler" target="_blank" class="social--link">
+      <a rel="noopener noreferrer" href="https://github.com/tivler" target="_blank" class="social--link">
         <font-awesome-icon :icon="['fab', 'github-square']" class="social--icon" />
          Github
       </a>
 
-      <a href="https://www.linkedin.com/in/thomas-mckyer/" target="_blank" class="social--link divider">
+      <a rel="noopener noreferrer" href="https://www.linkedin.com/in/thomas-mckyer/" target="_blank" class="social--link divider">
         <font-awesome-icon :icon="['fab', 'linkedin']" class="social--icon" />
         LinkedIn
       </a>
 
-      <a href="https://www.instagram.com/tmckyer/" target="_blank" class="social--link divider--two">
+      <a rel="noopener noreferrer" href="https://www.instagram.com/tmckyer/" target="_blank" class="social--link divider--two">
         <font-awesome-icon :icon="['fab', 'instagram']" class="social--icon" />
         Instagram
       </a>
 
-      <a href="mailto:thomasdmckyer@gmail.com" class="social--link">
+      <a rel="noopener noreferrer" href="mailto:thomasdmckyer@gmail.com" class="social--link">
         <font-awesome-icon :icon="['fab', 'google-plus-square']" class="social--icon" />
         Email Me
       </a>
