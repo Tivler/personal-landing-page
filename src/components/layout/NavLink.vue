@@ -24,19 +24,19 @@ export default {
 }
 
 .nav__list--link {
-position:relative;
-z-index: 1;
-transition: all .5s;
-padding: 12px;
-text-decoration: none;
-color: #c1c1c1;
-font-size: 1.2rem;
-font-weight: 300;
-margin: 0 10px;
+  position:relative;
+  z-index: 1;
+  transition: all .5s;
+  padding: 12px;
+  text-decoration: none;
+  color: #c1c1c1;
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin: 0 10px;
 
-@media only screen and (max-width: 1500px) and (max-height: 850px) {
- font-size: 1.2em;
-}
+  @media only screen and (max-width: 1500px) and (max-height: 850px) {
+    font-size: 1.2em;
+  }
 
 &:hover {
   color: #000;
