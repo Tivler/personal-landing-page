@@ -52,6 +52,12 @@ export default {
         text-decoration: none;
         display: flex;
         align-items: center;
+        opacity: 0.8;
+        transition: ease-in-out .2s;
+
+        &:hover {
+          opacity: 1;
+        }
     }
 
 
