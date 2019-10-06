@@ -1,45 +1,42 @@
 <template>
-  <section class="aboutme">
-      <AboutMe v-animate-css="bounceOne" />
-      <Socials v-animate-css="bounceTwo" />
-      <Nav name="Return Home" path="/"  v-animate-css="bounceThree"/>
-      <Copyright v-animate-css="bounceFour" />
+  <section class="about">
+      <Socials v-animate-css="bounceOne" />
+      <Nav v-animate-css="bounceTwo"/>
+      <Copyright v-animate-css="bounceThree" />
   </section>
 </template>
 
 <script>
 import Nav from '../components/core/Nav';
-import AboutMe from '../components/feature/AboutMe';
 import Socials from '../components/feature/Socials';
 import Copyright from '../components/core/Copyright';
 
 export default {
-    name: 'About',
+    name: "resume",
     components: {
         Nav,
-        AboutMe,
         Socials,
         Copyright
     },
     data() {
         return {
             bounceOne: {
-                classes: 'bounceInUp',
-                duration: 800
+                classes: 'bounceInDown',
+                duration: 900
             },
             bounceTwo: {
-                classes: 'bounceInUp',
+                classes: 'bounceInDown',
                 duration: 900,
                 delay: 200
             },
             bounceThree: {
-                classes: 'bounceInUp',
+                classes: 'bounceInDown',
                 duration: 900,
                 delay: 400
             },
             bounceFour: {
-                classes: 'bounceInUp',
-                duration: 900,
+                classes: 'bounceInDown',
+                duration: 800,
                 delay: 600
             },
         }
@@ -49,7 +46,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.aboutme {
+.about {
         height: 100vh;
         display: flex;
         flex-direction: column;

@@ -15,7 +15,7 @@ export default {
   border-top: 1px solid hsla(0,0%,100%,.25);
   padding: 40px 0 0 0;
   text-align: center;
-  width: 25%;
+  width: 15%;
   margin: 0 auto;
   margin-top: 50px;
 
@@ -23,7 +23,7 @@ export default {
     margin-bottom: 75px;
   }
 
-  @media only screen and (max-width: 550px){
+  @media only screen and (max-width: 875px){
      width: 50%;
      margin-top: 50px;
      margin-bottom: 50px;

@@ -1,0 +1,71 @@
+<template>
+  <li class="nav__list--item">
+      <router-link class="nav__list--link" :to="{ path }">{{ name }}</router-link>
+  </li>
+</template>
+
+<script>
+export default {
+  name: "Nav",
+  props: [
+    'name',
+    'path'
+  ]
+};
+</script>
+
+<style lang="scss" scoped>
+.nav__list--item {
+  display: inline-block;
+}
+
+.nav__list--link {
+position:relative;
+z-index: 1;
+transition: all .5s;
+padding: 15px;
+text-decoration: none;
+color: #c1c1c1;
+font-size: 1.2rem;
+font-weight: 300;
+margin: 0 10px;
+
+@media only screen and (max-width: 1500px) and (max-height: 850px) {
+ font-size: 1.4em;
+}
+
+
+&:hover {
+  color: #000;
+  transition: all .4s;
+
+  &::after {
+    opacity: 1;
+    visibility: visible;
+    height: 100%;
+    transition: all .4s;
+  }
+}
+
+  &::after {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 1px;
+    content: '.';
+    color: transparent;
+    background: #f80;
+    visibility: none;
+    border-radius: 5px;
+    opacity: 0;
+    z-index: -1;
+    transition: all .4s;
+  }
+}
+
+</style>

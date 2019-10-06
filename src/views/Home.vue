@@ -1,22 +1,22 @@
 <template>
   <div class="home">
-    <Head v-animate-css="bounceOne" />
+    <Header v-animate-css="bounceOne" />
     <Socials v-animate-css="bounceTwo" />
-    <Nav name="About Me" path="/about" v-animate-css="bounceThree" />
+    <Nav v-animate-css="bounceThree" />
     <Copyright v-animate-css="bounceFour" />
   </div>
 </template>
 
 <script>
-import Head from "../components/Head";
-import Socials from "../components/Socials";
-import Nav from "../components/layout/Nav";
-import Copyright from "../components/layout/Copyright";
+import Header from "../components/feature/Header";
+import Socials from "../components/feature/Socials";
+import Nav from "../components/core/Nav";
+import Copyright from "../components/core/Copyright";
 
 export default {
   name: "home",
   components: {
-    Head,
+    Header,
     Socials,
     Nav,
     Copyright
