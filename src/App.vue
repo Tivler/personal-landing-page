@@ -23,5 +23,6 @@ export default {
   #app {
     font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
     height: 100vh;
+    background-color: #333;
   }
 </style>

@@ -50,10 +50,10 @@ export default {
 
 <style lang="scss" scoped>
 .aboutme {
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        background-color: #333;
-    }
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #333;
+}
 </style>
