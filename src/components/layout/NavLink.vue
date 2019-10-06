@@ -27,7 +27,7 @@ export default {
 position:relative;
 z-index: 1;
 transition: all .5s;
-padding: 15px;
+padding: 12px;
 text-decoration: none;
 color: #c1c1c1;
 font-size: 1.2rem;
@@ -71,7 +71,7 @@ margin: 0 10px;
     color: transparent;
     background: #f80;
     visibility: none;
-    border-radius: 5px;
+    border-radius: 3px;
     opacity: 0;
     z-index: -1;
     transition: all .4s;
