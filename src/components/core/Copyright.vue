@@ -19,14 +19,10 @@ export default {
   margin: 0 auto;
   margin-top: 50px;
 
-  @media only screen and (max-width: 1500px) and (max-height: 850px) {
-    margin-bottom: 75px;
-  }
 
   @media only screen and (max-width: 875px){
      width: 50%;
      margin-top: 50px;
-     margin-bottom: 50px;
   }
     
     &__copyright {

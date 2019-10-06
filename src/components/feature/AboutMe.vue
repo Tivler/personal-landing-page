@@ -20,7 +20,7 @@ export default {
     .about {
         width: 35%;
         max-width: 1200px;
-        margin: 50px auto;
+        margin: 0 auto 35px auto;
 
         @media only screen and (max-width: 1600px){
             width: 45%;
@@ -59,14 +59,6 @@ export default {
               margin-top: 50px;
               font-size: 2em;
             }
-
-            @media only screen and (max-width: 550px){
-                font-size: 2.5em;
-            }
-
-            @media only screen and (max-width: 350px){
-                font-size: 2em;
-            }
         }
 
         &__text {
@@ -82,14 +74,10 @@ export default {
             }
 
             @media only screen and (max-width: 800px){
-              font-size: 1.2em;
+              font-size: 1em;
               line-height: 1.5;
             }
 
-            @media only screen and (max-width: 550px){
-              font-size: 1.2em;
-              line-height: 1.5;
-            }
 
             @media only screen and (max-width: 400px){
               line-height: 1.2;

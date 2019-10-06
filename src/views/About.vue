@@ -55,13 +55,5 @@ export default {
         flex-direction: column;
         justify-content: center;
         background-color: #333;
-
-        @media only screen and (max-width: 1500px) and (max-height: 850px) {
-           height: 100%;
-        }
-
-        @media only screen and (max-width: 550px) and (max-height: 850px) {
-           height: 100%;
-        }
     }
 </style>

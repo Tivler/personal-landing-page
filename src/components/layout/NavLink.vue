@@ -17,6 +17,10 @@ export default {
 <style lang="scss" scoped>
 .nav__list--item {
   display: inline-block;
+
+  @media only screen and (max-width: 400px) {
+    margin: 5px 0;
+  }
 }
 
 .nav__list--link {
@@ -31,19 +35,25 @@ font-weight: 300;
 margin: 0 10px;
 
 @media only screen and (max-width: 1500px) and (max-height: 850px) {
- font-size: 1.4em;
+ font-size: 1.2em;
 }
-
 
 &:hover {
   color: #000;
   transition: all .4s;
+  @media only screen and (max-width: 400px) {
+      color: #c1c1c1;
+  }
 
   &::after {
     opacity: 1;
     visibility: visible;
     height: 100%;
     transition: all .4s;
+
+    @media only screen and (max-width: 400px) {
+      display: none;
+    }
   }
 }
 

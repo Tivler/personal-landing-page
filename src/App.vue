@@ -22,5 +22,6 @@ export default {
 
   #app {
     font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    height: 100vh;
   }
 </style>
