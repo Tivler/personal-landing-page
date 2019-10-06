@@ -4,7 +4,7 @@
     <h1 class="head__title">{{ name }}</h1>
     <p class="head__subtitle">
         {{ title }}
-      <span class="label"><a class="label--link" href="https://www.roadtohire.org/" target="_blank">{{ job }}</a></span>
+      <span class="label"><a class="label--link" rel="noopener noreferrer" href="https://www.roadtohire.org/" target="_blank">{{ job }}</a></span>
     </p>
   </header>
 </template>
