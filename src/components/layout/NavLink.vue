@@ -41,7 +41,7 @@ export default {
 &:hover {
   color: #000;
   transition: all .4s;
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 1366px) {
       color: #c1c1c1;
   }
 
@@ -51,7 +51,7 @@ export default {
     height: 100%;
     transition: all .4s;
 
-    @media only screen and (max-width: 400px) {
+    @media only screen and (max-width: 1366px) {
       display: none;
     }
   }
@@ -75,6 +75,10 @@ export default {
     opacity: 0;
     z-index: -1;
     transition: all .4s;
+
+    @media only screen and (max-width: 1366px) {
+      display: none;
+    }
   }
 }
 
