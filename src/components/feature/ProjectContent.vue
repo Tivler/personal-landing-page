@@ -148,15 +148,15 @@ export default {
     }
 
     &--overlay {
-        display: none;
+        // display: none;
         color: #fff;
         background: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, .6) 50%);
 
-        // display: flex;
-        // flex-direction: column;
-        // height: inherit;
-        // text-align: center;
-        // justify-content: center;
+        display: flex;
+        flex-direction: column;
+        height: inherit;
+        text-align: center;
+        justify-content: center;
 
         @media only screen and (max-width: 1330px) {    
             display: block;
@@ -227,21 +227,21 @@ export default {
     background-size: cover;
 }
 
-.project-grid--link:hover .project-grid--overlay {
-    display: flex;
-    flex-direction: column;
-    height: inherit;
-    text-align: center;
-    justify-content: center;
-}
+// .project-grid--link:hover .project-grid--overlay {
+//     display: flex;
+//     flex-direction: column;
+//     height: inherit;
+//     text-align: center;
+//     justify-content: center;
+// }
 
-@media only screen and (max-width: 1440px) and (max-height: 1400px) {
-    .project-grid--link:hover .project-grid--overlay {
-        display: flex;
-        flex-direction: column;
-        height: inherit;
-        text-align: center;
-        justify-content: center;
-    }
-}
+// @media only screen and (max-width: 1440px) and (max-height: 1400px) {
+//     .project-grid--link:hover .project-grid--overlay {
+//         display: flex;
+//         flex-direction: column;
+//         height: inherit;
+//         text-align: center;
+//         justify-content: center;
+//     }
+// }
 </style>
