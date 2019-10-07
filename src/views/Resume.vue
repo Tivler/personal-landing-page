@@ -131,6 +131,10 @@ export default {
     @media only screen and (max-height: 850px) and (max-width: 1500px) {
        top: 11%;
     }
+
+     @media only screen and (max-height: 850px) and (max-width: 750px) {
+       top: 9%;
+    }
 }
 
 </style>

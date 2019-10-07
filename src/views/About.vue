@@ -61,6 +61,7 @@ export default {
 
     @media only screen and (max-height: 820px) and (max-width: 825px) {
         display: initial;
+        top: 5%;
     }
 }
 </style>

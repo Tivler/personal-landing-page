@@ -60,7 +60,7 @@ export default {
     justify-content: center;
 
     @media only screen and (max-height: 1350px) and (max-width: 850px) {
-        display: initial;
+        // display: initial;
         top: 5%;
     }
 
@@ -87,12 +87,17 @@ export default {
     }
 
     @media only screen and (max-height: 850px) and (max-width: 1500px) {
+        display: initial;
+       top: 8%;
+    }
+
+    @media only screen and (max-height: 850px) and (max-width: 750px) {
        top: 3%;
     }
 
-    @media only screen and (max-height: 850px) and (max-width: 1400px) {
-        display: initial;
+    @media only screen and (max-height: 850px) and (max-width: 550px) {
        top: 0;
     }
+
 }
 </style>

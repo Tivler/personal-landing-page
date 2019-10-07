@@ -14,18 +14,6 @@
                         <h3 class="project-grid__title">Soundclout</h3>
                     </div>
                 </a>
-
-                <!-- <a class="project-grid--link project-three" rel="noopener noreferrer" href="https://github.com/Tivler" target="_blank">
-                    <div class="project-grid--overlay">
-                        <h3 class="project-grid__title">Thomasmckyer.com</h3>
-                    </div>
-                </a>
-
-                <a class="project-grid--link project-four" rel="noopener noreferrer" href="https://github.com/Tivler" target="_blank">
-                    <div class="project-grid--overlay">
-                        <h3 class="project-grid__title">Road To Hire Clone</h3>
-                    </div>
-                </a> -->
             </div>
         </section>
     </section>
@@ -41,7 +29,7 @@ export default {
 .project {
     width: 35%;
     max-width: 800px;
-    margin: 0 auto 35px auto;
+    margin: 0 auto 25px auto;
 
     @media only screen and (max-width: 1600px){
         width: 45%;
@@ -63,7 +51,12 @@ export default {
         width: 70%;
     }
 
-    @media only screen and (max-width: 550px){
+    @media only screen and (max-width: 750px){
+        width: 85%;
+        margin-bottom: 50px;
+    }
+
+     @media only screen and (max-width: 550px){
         width: 85%;
         margin-bottom: 0;
     }
@@ -74,7 +67,7 @@ export default {
         letter-spacing: -1px;
         color: #f80;
         font-weight: 700;
-        margin: 0 0 40px 0;
+        margin: 0 0 15px 0;
         text-align: center;
 
         @media only screen and (max-width: 1500px) and (max-height: 850px) {
@@ -90,13 +83,13 @@ export default {
 
     &__wrapper {
         display: grid;
-        // grid-template-columns: 275px 275px 275px 275px; FOUR PROJECTS
-        grid-template-columns: repeat(2, 275px);
+        grid-template-columns: repeat(2, 220px);
+        grid-gap: 10px;
         justify-content: center;
-        margin: 3% 0 4% 0;
+        margin: 0 0 35px 0;
 
         @media only screen and (max-width: 1400px) {
-            grid-template-columns: 275px 275px;
+            grid-template-columns: 220px 220px;
         }
 
         @media only screen and (max-width: 750px) {
@@ -104,11 +97,11 @@ export default {
         }
 
         @media only screen and (max-width: 700px) {
-            grid-template-columns: 500px;
+            grid-template-columns: 400px;
         }
 
-        @media only screen and (max-width: 500px) {
-            grid-template-columns: 375px;
+        @media only screen and (max-width: 550px) {
+            margin: 0;
         }
 
         @media only screen and (max-width: 500px) {
@@ -118,7 +111,7 @@ export default {
     }
 
     &--link {
-        height: 275px;
+        height: 200px;
         width: inherit;
         min-width: 200px;
         margin: 0.500em;
@@ -148,10 +141,8 @@ export default {
     }
 
     &--overlay {
-        // display: none;
         color: #fff;
         background: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, .6) 50%);
-
         display: flex;
         flex-direction: column;
         height: inherit;
@@ -200,14 +191,14 @@ export default {
 }
 
 .project-one {
-    background: url('/assets/images/img.png');
+    background-color: #f80;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .project-two {
-    background: url('/assets/images/img2.png');
+    background-color: #f80;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -226,22 +217,4 @@ export default {
     background-position: center;
     background-size: cover;
 }
-
-// .project-grid--link:hover .project-grid--overlay {
-//     display: flex;
-//     flex-direction: column;
-//     height: inherit;
-//     text-align: center;
-//     justify-content: center;
-// }
-
-// @media only screen and (max-width: 1440px) and (max-height: 1400px) {
-//     .project-grid--link:hover .project-grid--overlay {
-//         display: flex;
-//         flex-direction: column;
-//         height: inherit;
-//         text-align: center;
-//         justify-content: center;
-//     }
-// }
 </style>

@@ -3,10 +3,6 @@
 
     <div v-animate-css="bounceOne" class="resume--wrapper">
         <h2 class="resume__title">Resume</h2>
-        <!-- <h3 class="resume__subtitle">Career Goals</h3>
-        <p class="resume__text">
-        Innovative Software Developer with a passion for learning new and useful technologies to benefit client side users and user experiences. I have experience in building clean responsive web applications using React and Vue.
-        </p> -->
     </div>
 
     <div v-animate-css="bounceTwo" class="resume--wrapper">
@@ -141,10 +137,6 @@ export default {
             color: #fff;
             font-weight: 700;
             margin: 0 0 15px 0;
-
-            @media only screen and (max-width: 1500px) and (max-height: 850px) {
-              margin-top: 50px;
-            }
         }
 
         &__text {
