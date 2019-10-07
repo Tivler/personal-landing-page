@@ -44,6 +44,19 @@ export default new Router({
                      window.scrollTo(0,0);
                 }
              }
+        },
+        {
+            path: '/projects',
+            name: 'projects',
+            component : () => import('./views/Projects.vue'),
+            meta: {
+                title: "Projects | Thomas McKyer"
+            },
+            methods: { 
+                scrollToTop() {
+                     window.scrollTo(0,0);
+                }
+             }
         }
     ],
     

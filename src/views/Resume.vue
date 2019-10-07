@@ -1,6 +1,6 @@
 <template>
   <section class="resume-content">
-      <Resume />
+      <ResumeContent />
       <Socials v-animate-css="bounceFive" />
       <Nav v-animate-css="bounceSix"/>
       <Copyright v-animate-css="bounceSeven" />
@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import Resume from '../components/feature/Resume';
+import ResumeContent from '../components/feature/ResumeContent';
 import Nav from '../components/core/Nav';
 import Socials from '../components/feature/Socials';
 import Copyright from '../components/core/Copyright';
@@ -16,7 +16,7 @@ import Copyright from '../components/core/Copyright';
 export default {
     name: "resume",
     components: {
-        Resume,
+        ResumeContent,
         Nav,
         Socials,
         Copyright
