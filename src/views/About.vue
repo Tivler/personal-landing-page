@@ -59,7 +59,7 @@ export default {
     flex-direction: column;
     justify-content: center;
 
-    @media only screen and (max-height: 700px) and (max-width: 825px) {
+    @media only screen and (max-height: 820px) and (max-width: 825px) {
         display: initial;
     }
 }
