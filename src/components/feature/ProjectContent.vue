@@ -4,25 +4,25 @@
 
         <section class="project-grid">
             <div class="project-grid__wrapper">
-                <a class="project-grid--link" rel="noopener noreferrer" href="https://github.com/Tivler" target="_blank">
+                <a class="project-grid--link project-one" rel="noopener noreferrer" href="https://github.com/Tivler" target="_blank">
                     <div class="project-grid--overlay">
                         <h3 class="project-grid__title">Road To Hire Clone</h3>
                     </div>
                 </a>
 
-                <a class="project-grid--link" rel="noopener noreferrer" href="https://github.com/Tivler" target="_blank">
+                <a class="project-grid--link project-two" rel="noopener noreferrer" href="https://github.com/Tivler" target="_blank">
                     <div class="project-grid--overlay">
                         <h3 class="project-grid__title">Road To Hire Clone</h3>
                     </div>
                 </a>
 
-                <a class="project-grid--link" rel="noopener noreferrer" href="https://github.com/Tivler" target="_blank">
+                <a class="project-grid--link project-three" rel="noopener noreferrer" href="https://github.com/Tivler" target="_blank">
                     <div class="project-grid--overlay">
                         <h3 class="project-grid__title">Road To Hire Clone</h3>
                     </div>
                 </a>
 
-                <a class="project-grid--link" rel="noopener noreferrer" href="https://github.com/Tivler" target="_blank">
+                <a class="project-grid--link project-four" rel="noopener noreferrer" href="https://github.com/Tivler" target="_blank">
                     <div class="project-grid--overlay">
                         <h3 class="project-grid__title">Road To Hire Clone</h3>
                     </div>
@@ -150,7 +150,7 @@ export default {
     &--overlay {
         display: none;
         color: #fff;
-        background: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(255, 136, 0, .6) 50%);
+        background: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, .6) 50%);
 
         @media only screen and (max-width: 1330px) {    
             display: block;
@@ -191,6 +191,34 @@ export default {
             font-size: .9em;
         }
     }
+}
+
+.project-one {
+    background: url();
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.project-two {
+    background: url();
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.project-three {
+    background: url();
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.project-four {
+    background: url();
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .project-grid--link:hover .project-grid--overlay {
