@@ -82,6 +82,34 @@ export default {
     top: 10%;
     width: 100%;
 
+    @media only screen and (max-height: 1350px) and (max-width: 2000px) {
+        top: 5%;
+    }
+
+    @media only screen and (max-height: 1350px) and (max-width: 1600px) {
+        top: 10%;
+    }
+
+    @media only screen and (max-height: 1350px) and (max-width: 1275px) {
+        top: 6.5%;
+    }
+
+    @media only screen and (max-height: 1350px) and (max-width: 1175px) {
+        top: 4.5%;
+    }
+
+    @media only screen and (max-height: 1350px) and (max-width: 1025px) {
+        top: 10%;
+    }
+
+    @media only screen and (max-height: 1350px) and (max-width: 850px) {
+        top: 5.5%;
+    }
+
+    @media only screen and (max-height: 1350px) and (max-width: 600px) {
+        top: 3.5%;
+    }
+
     @media only screen and (min-height: 1600px) and (min-width: 2500px) {
         top: 0;
         display: flex;
