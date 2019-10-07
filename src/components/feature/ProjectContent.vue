@@ -1,7 +1,6 @@
 <template>
     <section class="project">
         <h2 class="project__title">Projects</h2>
-
         <section class="project-grid">
             <div class="project-grid__wrapper">
                 <a class="project-grid--link project-one" rel="noopener noreferrer" href="https://github.com/Tivler/roadtohire-clone" target="_blank">
