@@ -2,7 +2,7 @@
   <nav class="nav">
     <ul class="nav__list">
         <NavLink on:click="scroll" name="Home" path="/" />
-        <!-- <NavLink name="Projects" path="/about" /> -->
+        <NavLink name="Projects" path="/projects" />
         <NavLink on:click="scroll" name="About Me" path="/about" />
         <NavLink on:click="scroll" name="Resume" path="/resume" />
     </ul>

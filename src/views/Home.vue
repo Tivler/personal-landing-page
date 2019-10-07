@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="home-content">
     <Header v-animate-css="bounceOne" />
     <Socials v-animate-css="bounceTwo" />
     <Nav v-animate-css="bounceThree" />
@@ -54,7 +54,7 @@ export default {
   box-sizing: border-box;
 }
 
-.home {
+.home-content {
   font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
   height: 100vh;
   display: flex;
