@@ -19,7 +19,7 @@ export default {
 <style lang="scss" scoped>
     .about {
         width: 35%;
-        max-width: 1200px;
+        max-width: 800px;
         margin: 0 auto 35px auto;
 
         @media only screen and (max-width: 1600px){

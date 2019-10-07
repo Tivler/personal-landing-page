@@ -89,7 +89,7 @@ export default {
 <style lang="scss" scoped>
     .resume {
         width: 35%;
-        max-width: 1200px;
+        max-width: 800px;
         margin: 0 auto;
 
         @media only screen and (max-width: 1600px){
