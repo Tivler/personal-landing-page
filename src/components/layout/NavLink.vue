@@ -18,8 +18,8 @@ export default {
 .nav__list--item {
   display: inline-block;
 
-  @media only screen and (max-width: 400px) {
-    margin: 5px 0;
+  @media only screen and (max-width: 450px) {
+    margin: 7px 0;
   }
 }
 
