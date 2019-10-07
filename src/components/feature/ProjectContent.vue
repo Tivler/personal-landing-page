@@ -4,21 +4,21 @@
 
         <section class="project-grid">
             <div class="project-grid__wrapper">
-                <a class="project-grid--link project-one" rel="noopener noreferrer" href="https://github.com/Tivler" target="_blank">
+                <a class="project-grid--link project-one" rel="noopener noreferrer" href="https://github.com/Tivler/roadtohire-clone" target="_blank">
                     <div class="project-grid--overlay">
                         <h3 class="project-grid__title">Road To Hire Clone</h3>
                     </div>
                 </a>
 
-                <a class="project-grid--link project-two" rel="noopener noreferrer" href="https://github.com/Tivler" target="_blank">
+                <a class="project-grid--link project-two" rel="noopener noreferrer" href="https://github.com/Tivler/soundclout" target="_blank">
                     <div class="project-grid--overlay">
-                        <h3 class="project-grid__title">Road To Hire Clone</h3>
+                        <h3 class="project-grid__title">Soundclout</h3>
                     </div>
                 </a>
 
-                <a class="project-grid--link project-three" rel="noopener noreferrer" href="https://github.com/Tivler" target="_blank">
+                <!-- <a class="project-grid--link project-three" rel="noopener noreferrer" href="https://github.com/Tivler" target="_blank">
                     <div class="project-grid--overlay">
-                        <h3 class="project-grid__title">Road To Hire Clone</h3>
+                        <h3 class="project-grid__title">Thomasmckyer.com</h3>
                     </div>
                 </a>
 
@@ -26,7 +26,7 @@
                     <div class="project-grid--overlay">
                         <h3 class="project-grid__title">Road To Hire Clone</h3>
                     </div>
-                </a>
+                </a> -->
             </div>
         </section>
     </section>
@@ -91,7 +91,8 @@ export default {
 
     &__wrapper {
         display: grid;
-        grid-template-columns: 275px 275px 275px 275px;
+        // grid-template-columns: 275px 275px 275px 275px; FOUR PROJECTS
+        grid-template-columns: repeat(2, 275px);
         justify-content: center;
         margin: 3% 0 4% 0;
 
@@ -152,6 +153,12 @@ export default {
         color: #fff;
         background: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, .6) 50%);
 
+        // display: flex;
+        // flex-direction: column;
+        // height: inherit;
+        // text-align: center;
+        // justify-content: center;
+
         @media only screen and (max-width: 1330px) {    
             display: block;
             display: flex;
@@ -194,21 +201,21 @@ export default {
 }
 
 .project-one {
-    background: url();
+    background: url('/assets/images/img.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .project-two {
-    background: url();
+    background: url('/assets/images/img2.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .project-three {
-    background: url();
+    background: url('/assets/images/img3.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
