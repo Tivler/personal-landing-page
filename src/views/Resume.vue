@@ -1,12 +1,14 @@
 <template>
-  <section class="about">
-      <Socials v-animate-css="bounceOne" />
-      <Nav v-animate-css="bounceTwo"/>
-      <Copyright v-animate-css="bounceThree" />
+  <section class="resume-content">
+      <Resume />
+      <Socials v-animate-css="bounceFive" />
+      <Nav v-animate-css="bounceSix"/>
+      <Copyright v-animate-css="bounceSeven" />
   </section>
 </template>
 
 <script>
+import Resume from '../components/feature/Resume';
 import Nav from '../components/core/Nav';
 import Socials from '../components/feature/Socials';
 import Copyright from '../components/core/Copyright';
@@ -14,30 +16,27 @@ import Copyright from '../components/core/Copyright';
 export default {
     name: "resume",
     components: {
+        Resume,
         Nav,
         Socials,
         Copyright
     },
     data() {
         return {
-            bounceOne: {
-                classes: 'bounceInDown',
-                duration: 900
-            },
-            bounceTwo: {
-                classes: 'bounceInDown',
-                duration: 900,
-                delay: 200
-            },
-            bounceThree: {
-                classes: 'bounceInDown',
-                duration: 900,
-                delay: 400
-            },
-            bounceFour: {
-                classes: 'bounceInDown',
+            bounceFive: {
+                classes: 'bounceInUp',
                 duration: 800,
-                delay: 600
+                delay: 800
+            },
+            bounceSix: {
+                classes: 'bounceInUp',
+                duration: 900,
+                delay: 1000
+            },
+            bounceSeven: {
+                classes: 'bounceInUp',
+                duration: 900,
+                delay: 1200
             },
         }
     }
@@ -46,19 +45,64 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.about {
-        height: 100vh;
+
+// With Career Goals
+// .resume-content {
+//     font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+//     position: absolute;
+//     top: 5%;
+//     width: 100%;
+
+//     @media only screen and (min-height: 1600px) and (min-width: 2500px) {
+//         top: 0;
+//         display: flex;
+//         flex-direction: column;
+//         justify-content: center;
+//         height: 100%;
+//         width: 100%;
+//     }
+
+//     @media only screen and (min-height: 2500px) and (min-width: 1600px) {
+//         top: 0;
+//         display: flex;
+//         flex-direction: column;
+//         justify-content: center;
+//         height: 100%;
+//         width: 100%;
+//     }
+
+//     @media only screen and (max-height: 850px) and (max-width: 1500px) {
+//        top: 9%;
+//     }
+// }
+
+.resume-content {
+    font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: absolute;
+    top: 10%;
+    width: 100%;
+
+    @media only screen and (min-height: 1600px) and (min-width: 2500px) {
+        top: 0;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        background-color: #333;
-
-        @media only screen and (max-width: 1500px) and (max-height: 850px) {
-           height: 100%;
-        }
-
-        @media only screen and (max-width: 550px) and (max-height: 850px) {
-           height: 100%;
-        }
+        height: 100%;
+        width: 100%;
     }
+
+    @media only screen and (min-height: 2500px) and (min-width: 1200px) {
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    @media only screen and (max-height: 850px) and (max-width: 1500px) {
+       top: 11%;
+    }
+}
+
 </style>

@@ -23,22 +23,22 @@ export default {
     },
     data() {
         return {
-            bounceOne: {
-                classes: 'bounceInUp',
+            bounceFour: {
+                classes: 'bounceInDown',
                 duration: 800
             },
-            bounceTwo: {
-                classes: 'bounceInUp',
+            bounceThree: {
+                classes: 'bounceInDown',
                 duration: 900,
                 delay: 200
             },
-            bounceThree: {
-                classes: 'bounceInUp',
+            bounceTwo: {
+                classes: 'bounceInDown',
                 duration: 900,
                 delay: 400
             },
-            bounceFour: {
-                classes: 'bounceInUp',
+            bounceOne: {
+                classes: 'bounceInDown',
                 duration: 900,
                 delay: 600
             },

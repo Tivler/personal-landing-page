@@ -12,7 +12,12 @@ export default new Router({
             component: Home,
             meta: {
                 title: "Home | Thomas McKyer"
-            }
+            },
+            methods: { 
+                scrollToTop() {
+                     window.scrollTo(0,0);
+                }
+             }
         },
         {
             path: '/about',
@@ -20,7 +25,12 @@ export default new Router({
             component : () => import('./views/About.vue'),
             meta: {
                 title: "About | Thomas McKyer"
-            }
+            },
+            methods: { 
+                scrollToTop() {
+                     window.scrollTo(0,0);
+                }
+             }
         },
         {
             path: '/resume',
@@ -28,7 +38,12 @@ export default new Router({
             component : () => import('./views/Resume.vue'),
             meta: {
                 title: "Resume | Thomas McKyer"
-            }
+            },
+            methods: { 
+                scrollToTop() {
+                     window.scrollTo(0,0);
+                }
+             }
         }
     ],
     

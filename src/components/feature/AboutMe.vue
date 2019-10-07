@@ -67,7 +67,6 @@ export default {
             color: #e1e1e1;
             font-size: 1.3em;
             font-weight: 300;
-            text-align: justify;
             letter-spacing: .4px;
 
              @media only screen and (max-width: 1500px) and (max-height: 850px) {

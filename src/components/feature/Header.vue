@@ -59,7 +59,7 @@ export default {
     }
 
     &__subtitle {
-        font-size: 18px;
+        font-size: 20px;
         font-weight: 300;
         color: rgb(193, 193, 193);
         margin: 0 auto 30px;
