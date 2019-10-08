@@ -142,7 +142,7 @@ export default {
 
     &--overlay {
         color: #fff;
-        background: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, .6) 50%);
+        background: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, .6) 100%);
         display: flex;
         flex-direction: column;
         height: inherit;
@@ -191,28 +191,14 @@ export default {
 }
 
 .project-one {
-    background-color: #f80;
+    background: url('/assets/images/project.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .project-two {
-    background-color: #f80;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.project-three {
-    background: url('/assets/images/img3.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.project-four {
-    background: url();
+    background: url('/assets/images/project2.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
