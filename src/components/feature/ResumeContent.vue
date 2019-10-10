@@ -121,7 +121,7 @@ export default {
         &__title {
             font-size: 2.5em;
             letter-spacing: -1px;
-            color: #9370DB;
+            color: darkgoldenrod;
             font-weight: 700;
             margin: 0 0 35px 0;
             text-align: center;
@@ -185,7 +185,7 @@ export default {
 
                 &::before {
                     content: "\2022";
-                    color: #9370DB;
+                    color: darkgoldenrod;
                     font-weight: bold;
                     display: inline-block;
                     width: 1em;
@@ -205,7 +205,7 @@ export default {
             transition: ease-in-out .3s;
 
             &:hover {
-                color: rgb(190, 156, 252);
+                color: darkgoldenrod;
             }
 
             @media only screen and (max-width: 800px){
@@ -216,7 +216,7 @@ export default {
     }
     
     span {
-        color: #9370DB;
+        color: darkgoldenrod;
         font-weight: 400;
     }
 </style>

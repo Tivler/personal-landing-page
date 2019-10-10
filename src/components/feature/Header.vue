@@ -73,14 +73,10 @@ export default {
 .label {
    
     &--link {
-        color: #9370DB;;
+        color: darkgoldenrod;
         font-weight: 400;
         text-decoration: none;
         transition: ease 0.7s;
-
-        &:hover {
-            color: rgb(190, 156, 252);
-        }   
     }
 }
 

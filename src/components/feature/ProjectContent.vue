@@ -1,6 +1,6 @@
 <template>
     <section class="project">
-        <h2 class="project__title">Projects</h2>
+        <h2 class="project__title">Portfolio</h2>
         <section class="project-grid">
             <div class="project-grid__wrapper">
                 <a class="project-grid--link project-one" rel="noopener noreferrer" href="https://github.com/Tivler/roadtohire-clone" target="_blank">
@@ -65,7 +65,7 @@ export default {
     &__title {
         font-size: 2.5em;
         letter-spacing: -1px;
-        color:#9370DB;
+        color:darkgoldenrod;
         font-weight: 700;
         margin: 0 0 15px 0;
         text-align: center;

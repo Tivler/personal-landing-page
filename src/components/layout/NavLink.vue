@@ -69,7 +69,7 @@ export default {
     height: 1px;
     content: '.';
     color: transparent;
-    background:#9370DB;
+    background:darkgoldenrod;
     visibility: none;
     border-radius: 3px;
     opacity: 0;

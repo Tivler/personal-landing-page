@@ -46,7 +46,7 @@ export default new Router({
              }
         },
         {
-            path: '/projects',
+            path: '/portfolio',
             name: 'projects',
             component : () => import('./views/Projects.vue'),
             meta: {
