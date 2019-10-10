@@ -65,7 +65,7 @@ export default {
     &__title {
         font-size: 2.5em;
         letter-spacing: -1px;
-        color: #f80;
+        color:#9370DB;
         font-weight: 700;
         margin: 0 0 15px 0;
         text-align: center;
@@ -83,13 +83,13 @@ export default {
 
     &__wrapper {
         display: grid;
-        grid-template-columns: repeat(2, 220px);
+        grid-template-columns: repeat(2, 320px);
         grid-gap: 10px;
         justify-content: center;
         margin: 0 0 35px 0;
 
         @media only screen and (max-width: 1400px) {
-            grid-template-columns: 220px 220px;
+            grid-template-columns: 320px 320px;
         }
 
         @media only screen and (max-width: 750px) {
@@ -142,7 +142,8 @@ export default {
 
     &--overlay {
         color: #fff;
-        background: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, .6) 100%);
+        text-shadow: -1px 1px 1px #555;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(179, 145, 242, 0.6) 100%);
         display: flex;
         flex-direction: column;
         height: inherit;
@@ -191,14 +192,14 @@ export default {
 }
 
 .project-one {
-    background: url('/assets/images/project.png');
+    background: url('/assets/images/project3.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .project-two {
-    background: url('/assets/images/project2.png');
+    background: url('/assets/images/project5.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

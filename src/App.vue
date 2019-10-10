@@ -26,14 +26,14 @@ export default {
   body {
     height: 100%;
     width: 100%;
-    background: #333;
     display: flex;
     align-items: center;
+    color: #333;
   }
 
   #app {
     font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background-color: #333;
+    background-color: #f4f4f4;
     height: 100%;
     width: 100%;
   }

@@ -11,16 +11,10 @@
         LinkedIn
       </a>
 
-      <a rel="noopener noreferrer" href="https://www.instagram.com/tmckyer/" target="_blank" class="social--link divider--two">
+      <a rel="noopener noreferrer" href="https://www.instagram.com/tmckyer/" target="_blank" class="social--link">
         <font-awesome-icon :icon="['fab', 'instagram']" class="social--icon" />
         Instagram
       </a>
-
-      <a rel="noopener noreferrer" href="mailto:thomasdmckyer@gmail.com" class="social--link">
-        <font-awesome-icon :icon="['fab', 'google-plus-square']" class="social--icon" />
-        Email Me
-      </a>
-
   </section>
 </template>
 
@@ -48,7 +42,7 @@ export default {
     
      &--link {
         font-size: 1em;
-        color: #e1e1e1;
+        color: #333;
         text-decoration: none;
         display: flex;
         align-items: center;
@@ -63,7 +57,7 @@ export default {
 
     &--icon {
         font-size: 1.7em;
-        color: #f80;
+        color: #9370DB;
         margin-right: 7px;
     }
 }
@@ -73,10 +67,6 @@ export default {
 
     @media only screen and (max-width: 550px){
       margin: 0;
-    }
-
-    &--two {
-      margin: 0 20px 0 0;
     }
 }
 </style>

@@ -61,7 +61,6 @@ export default {
   flex-direction: column;
   justify-content: center;
   overflow: hidden;
-  background-color: #333;
 
   @media only screen and (max-width: 900px) and (max-height: 550px) {
     height: 100%;

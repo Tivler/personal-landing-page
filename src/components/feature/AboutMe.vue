@@ -51,7 +51,7 @@ export default {
         &__title {
             font-size: 2.5em;
             letter-spacing: -1px;
-            color: #f80;
+            color: #9370DB;
             font-weight: 700;
             margin: 0 0 15px 0;
             text-align: center;
@@ -64,7 +64,6 @@ export default {
 
         &__text {
             line-height: 1.7;
-            color: #e1e1e1;
             font-size: 1.3em;
             font-weight: 300;
             letter-spacing: .4px;

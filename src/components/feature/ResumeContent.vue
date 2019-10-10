@@ -121,7 +121,7 @@ export default {
         &__title {
             font-size: 2.5em;
             letter-spacing: -1px;
-            color: #f80;
+            color: #9370DB;
             font-weight: 700;
             margin: 0 0 35px 0;
             text-align: center;
@@ -134,14 +134,12 @@ export default {
          &__subtitle {
             font-size: 1.4em;
             letter-spacing: -1px;
-            color: #fff;
             font-weight: 700;
             margin: 0 0 15px 0;
         }
 
         &__text {
             line-height: 1.7;
-            color: #e1e1e1;
             font-size: 1.2em;
             font-weight: 300;
             letter-spacing: .4px;
@@ -159,7 +157,6 @@ export default {
 
         &__position {
             line-height: 1.7;
-            color: #e1e1e1;
             font-size: 1.3em;
             font-weight: 300;
             letter-spacing: .4px;
@@ -183,13 +180,12 @@ export default {
 
             &--item {
                 font-size: 1.1em;
-                color:#e1e1e1;
                 font-weight: 300;
                 letter-spacing: .4px;
 
                 &::before {
                     content: "\2022";
-                    color: #f80;
+                    color: #9370DB;
                     font-weight: bold;
                     display: inline-block;
                     width: 1em;
@@ -201,7 +197,7 @@ export default {
 
         &__download {
             line-height: 1.7;
-            color: #e1e1e1;
+            color: #333;
             font-size: 1em;
             font-weight: 300;
             letter-spacing: .4px;
@@ -209,7 +205,7 @@ export default {
             transition: ease-in-out .3s;
 
             &:hover {
-                color: #f80;
+                color: rgb(190, 156, 252);
             }
 
             @media only screen and (max-width: 800px){
@@ -220,6 +216,7 @@ export default {
     }
     
     span {
-        color: #f80;
+        color: #9370DB;
+        font-weight: 400;
     }
 </style>

@@ -12,7 +12,7 @@ export default {
 
 <style lang="scss" scoped>
 .footer {
-  border-top: 1px solid hsla(0,0%,100%,.25);
+  border-top: 1px solid rgba(55, 55, 55, 0.25);
   padding: 40px 0 0 0;
   text-align: center;
   width: 15%;
@@ -30,7 +30,6 @@ export default {
   }
     
     &__copyright {
-      color: #fff;
       text-align: center;
       font-size: 75%;
       opacity: .6;

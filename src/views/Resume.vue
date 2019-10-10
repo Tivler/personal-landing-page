@@ -46,41 +46,12 @@ export default {
 
 <style lang="scss" scoped>
 
-// With Career Goals
-// .resume-content {
-//     font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
-//     position: absolute;
-//     top: 5%;
-//     width: 100%;
-
-//     @media only screen and (min-height: 1600px) and (min-width: 2500px) {
-//         top: 0;
-//         display: flex;
-//         flex-direction: column;
-//         justify-content: center;
-//         height: 100%;
-//         width: 100%;
-//     }
-
-//     @media only screen and (min-height: 2500px) and (min-width: 1600px) {
-//         top: 0;
-//         display: flex;
-//         flex-direction: column;
-//         justify-content: center;
-//         height: 100%;
-//         width: 100%;
-//     }
-
-//     @media only screen and (max-height: 850px) and (max-width: 1500px) {
-//        top: 9%;
-//     }
-// }
-
 .resume-content {
     font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
     position: absolute;
     top: 10%;
     width: 100%;
+    background-color: #f4f4f4;
 
     @media only screen and (max-height: 1350px) and (max-width: 2000px) {
         top: 5%;

@@ -45,7 +45,6 @@ export default {
     &__title {
         font-size: 2.5rem;
         letter-spacing: -1px;
-        color: #fff;
         font-weight: 700;
         margin: 15px 0;
 
@@ -61,7 +60,6 @@ export default {
     &__subtitle {
         font-size: 20px;
         font-weight: 300;
-        color: rgb(193, 193, 193);
         margin: 0 auto 30px;
 
         @media only screen and (max-width: 550px){
@@ -75,13 +73,13 @@ export default {
 .label {
    
     &--link {
-        color: #f80;
-        font-weight: 300;
+        color: #9370DB;;
+        font-weight: 400;
         text-decoration: none;
         transition: ease 0.7s;
 
         &:hover {
-            color: #f90;
+            color: rgb(190, 156, 252);
         }   
     }
 }

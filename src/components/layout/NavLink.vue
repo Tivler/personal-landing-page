@@ -29,9 +29,9 @@ export default {
   transition: all .5s;
   padding: 12px;
   text-decoration: none;
-  color: #c1c1c1;
+  color: #333;
   font-size: 1.2rem;
-  font-weight: 300;
+  font-weight: 400;
   margin: 0 10px;
 
   @media only screen and (max-width: 1500px) and (max-height: 850px) {
@@ -39,10 +39,10 @@ export default {
   }
 
 &:hover {
-  color: #000;
+  color: #fff;
   transition: all .4s;
   @media only screen and (max-width: 1366px) {
-      color: #c1c1c1;
+      color: #333;
   }
 
   &::after {
@@ -69,7 +69,7 @@ export default {
     height: 1px;
     content: '.';
     color: transparent;
-    background: #f80;
+    background:#9370DB;
     visibility: none;
     border-radius: 3px;
     opacity: 0;
