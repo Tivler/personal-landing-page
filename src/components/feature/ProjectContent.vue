@@ -143,7 +143,7 @@ export default {
     &--overlay {
         color: #fff;
         text-shadow: -1px 1px 1px #555;
-        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(179, 145, 242, 0.6) 100%);
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.25) 100%);
         display: flex;
         flex-direction: column;
         height: inherit;

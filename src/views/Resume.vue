@@ -51,7 +51,7 @@ export default {
     position: absolute;
     top: 10%;
     width: 100%;
-    background-color: #f4f4f4;
+    background-color: ghostwhite;
 
     @media only screen and (max-height: 1350px) and (max-width: 2000px) {
         top: 5%;
