@@ -2,9 +2,7 @@
   <nav class="nav">
     <ul class="nav__list">
         <NavLink name="Home" path="/" />
-        <NavLink name="Portfolio" path="/portfolio" />
         <NavLink name="About Me" path="/about" />
-        <NavLink name="Resume" path="/resume" />
     </ul>
   </nav>
 </template>

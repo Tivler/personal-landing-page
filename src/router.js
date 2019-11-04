@@ -31,32 +31,6 @@ export default new Router({
                      window.scrollTo(0,0);
                 }
              }
-        },
-        {
-            path: '/resume',
-            name: 'resume',
-            component : () => import('./views/Resume.vue'),
-            meta: {
-                title: "Resume | Thomas McKyer"
-            },
-            methods: { 
-                scrollToTop() {
-                     window.scrollTo(0,0);
-                }
-             }
-        },
-        {
-            path: '/portfolio',
-            name: 'projects',
-            component : () => import('./views/Projects.vue'),
-            meta: {
-                title: "Projects | Thomas McKyer"
-            },
-            methods: { 
-                scrollToTop() {
-                     window.scrollTo(0,0);
-                }
-             }
         }
     ],
     
