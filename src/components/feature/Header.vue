@@ -1,83 +1,73 @@
 <template>
-  <header class="head">
-    <!-- <img class="head__avi" src="assets/avi.jpg" alt="Thomas McKyer" /> -->
-    <h1 class="head__title">{{ name }}</h1>
-    <p class="head__subtitle">
-        {{ title }}
-      <span class="label"><a class="label--link" rel="noopener noreferrer" href="https://www.roadtohire.org/" target="_blank">{{ job }}</a></span>
-    </p>
-  </header>
+    <header>
+        <p class="tag">&lt;<span>body</span>&gt;</p>
+        
+        <div class="heading--wrapper">
+            <p class="tag">&lt;h1 class="<span>heading</span>"&gt;</p>
+            <h1 class="heading">Thomas McKyer</h1>
+            <p class="tag">&lt;/h1&gt;</p>
+        </div>
+    </header>
 </template>
 
 <script>
 
 export default {
-    name: "Head",
-    data () {
-        return {
-            name: 'Thomas McKyer',
-            title: 'Apprentice Software Engineer at',
-            job: 'Road To Hire'
-        }
-    }
+    name: "Head"
 }
 
 </script>
 
 <style lang="scss" scoped>
 
-.head {
-    text-align: center;
-    
-    @media only screen and (max-width: 1500px) and (max-height: 850px) {
-        margin-top: 50px;
+.heading {
+    color: #f4f4f4;
+    font-size: 4em;
+    font-weight: 500;
+    margin-left: 20px;
+    font-style: normal;
+    line-height: 105px;
+
+    @media only screen and (max-width: 1440px) and (max-height: 800px) {
+        font-size: 2.5em;
+        line-height: 62px;
     }
 
-    &__avi {
-        height: 200px;
-        border-radius: 5px;
-
-        @media only screen and (max-width: 550px){
-            height: 180px;
-        }
+    @media only screen and (max-width: 950px) {
+        font-size: 2.4em; 
+        line-height: 62px;
     }
 
-    &__title {
-        font-size: 2.5rem;
-        letter-spacing: -1px;
-        font-weight: 700;
-        margin: 15px 0;
-
-        @media only screen and (max-width: 550px){
-            font-size: 2.5em;
-        }
-
-        @media only screen and (max-width: 350px){
-            font-size: 2em;
-        }
+    @media only screen and (max-width: 700px) {
+        font-size: 2.2em;
     }
 
-    &__subtitle {
-        font-size: 20px;
-        font-weight: 300;
-        margin: 0 auto 30px;
+    @media only screen and (max-width: 500px) {
+        font-size: 1.5em; 
+        line-height: 50px;
+        margin-bottom: 10px;
+        margin-right: 0;
+        width: 250px;
+    }
 
-        @media only screen and (max-width: 550px){
-            display: flex;
-            flex-direction: column;
-            margin: 0;
+     @media only screen and (max-width: 400px) {
+        font-size: 1.2em; 
+        line-height: 40px;
+    }
+
+    &--wrapper {
+        margin: 25px 0 0 30px;
+        margin-bottom: 25px;
+        font-family: 'Helvetica Neue';  
+
+        @media only screen and (max-width: 1440px) and (max-height: 800px) {
+            margin-bottom: 10px;
+            margin-top: 15px;
+        }
+
+        @media only screen and (max-width: 500px) {
+            margin-bottom: 0;
         }
     }
 }
-
-.label {
-   
-    &--link {
-        color: darkgoldenrod;
-        font-weight: 400;
-        text-decoration: none;
-        transition: ease 0.7s;
-    }
-}
-
 </style>

@@ -1,12 +1,19 @@
 <template>
   <section class="about">
-    <h2 class="about__title">About Me</h2>
-    <p class="about__text">
-      Hey, I’m Thomas! I am a Software Developer - I was born and raised here in Charlotte, I’m currently studying and working with Road To Hire as an Apprentice Software Developer. 
-      I grew up like most people from my generation with a controller in one hand and an iPhone in the other, so without saying I’ve always had an interest in technology and a strong passion for creating. 
-      Over the past few years I’ve been developing my skills as a Front End Developer learning all the ins and outs of web development specifically building unique and intuitive user experiences via Front End Frameworks like Vue and React. 
-      I keep myself busy building interactive web applications with friends and helping others find a passion for technology as well as the time I spend with Road To Hire learning more about the industry. 
-    </p>
+     <p class="tag">&lt;<span>body</span>&gt;</p>
+        
+      <div class="about--wrapper">
+          <p class="tag">&lt;p class="<span>about__me</span>"&gt;</p>
+          <p class="about__text">Hey, I’m Thomas! I am a Software Developer - I was born and raised here in Charlotte, 
+            I’m currently studying and working with Road To Hire as an Apprentice Software Developer. 
+            I grew up like most people from my generation with a controller in one hand and an iPhone in the other, 
+            so without saying I’ve always had an interest in technology and a strong passion for creating. 
+            Over the past few years I’ve been developing my skills as a Front End Developer learning all the ins and outs of 
+            web development specifically building unique and intuitive user experiences via Front End Frameworks like Vue and React. 
+            I keep myself busy building interactive web applications with friends and helping others find a passion for technology 
+            as well as the time I spend with Road To Hire learning more about the industry.</p>
+          <p class="tag">&lt;/p&gt;</p>
+      </div>
   </section>
 </template>
 
@@ -17,67 +24,32 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-    .about {
-        width: 35%;
-        max-width: 800px;
-        margin: 0 auto 35px auto;
+  .about {
+    color: #dcdcdc;
 
-        @media only screen and (max-width: 1600px){
-            width: 45%;
-        }
+    &__text {
+      font-family: 'Helvetica Neue' , sans-serif;
+      line-height: 1.6;
+      font-size: 1.1em;
+      font-weight: 300;
+      letter-spacing: .4px;
+      margin: 15px 0 15px 20px;
 
-        @media only screen and (max-width: 1500px){
-            width: 50%;
-        }
+       @media only screen and (max-width: 1440px) and (max-height: 800px) {
+        font-size: .85em;
+        line-height: 1.6;
+        margin: 10px 0 10px 15px;
+      }
+    }
 
-        @media only screen and (max-width: 1024px){
-            width: 75%;
-        }
+    &--wrapper {
+        margin: 25px 0 0 30px;
+        margin-bottom: 25px;
 
-        @media only screen and (max-width: 1500px) and (max-height: 850px) {
-              width: 52%;
-        }
-
-         @media only screen and (max-width: 1024px) and (max-height: 850px) {
-              width: 70%;
-        }
-
-        @media only screen and (max-width: 550px){
-            width: 85%;
-            margin-bottom: 0;
-        }
-
-
-        &__title {
-            font-size: 2.5em;
-            letter-spacing: -1px;
-            color: darkgoldenrod;
-            font-weight: 700;
-            margin: 0 0 15px 0;
-            text-align: center;
-
-            @media only screen and (max-width: 1500px) and (max-height: 850px) {
-              margin-top: 50px;
-              font-size: 2em;
-            }
-        }
-
-        &__text {
-            line-height: 1.7;
-            font-size: 1.3em;
-            font-weight: 300;
-            letter-spacing: .4px;
-
-             @media only screen and (max-width: 1500px) and (max-height: 850px) {
-              font-size: 1.22em;
-            }
-
-            @media only screen and (max-width: 800px){
-              font-size: 1.08em;
-              line-height: 1.5;
-              letter-spacing: 0;
-            }
+        @media only screen and (max-width: 1440px) and (max-height: 800px) {
+            margin-bottom: 10px;
+            margin-top: 15px;
         }
     }
-    
+}
 </style>

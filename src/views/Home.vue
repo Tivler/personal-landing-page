@@ -1,17 +1,17 @@
 <template>
-  <div class="home-content">
-    <Header v-animate-css="bounceOne" />
-    <Socials v-animate-css="bounceTwo" />
-    <Nav v-animate-css="bounceThree" />
-    <Copyright v-animate-css="bounceFour" />
-  </div>
+  <main>
+      <Header v-animate-css="bounceOne" />
+      <Description v-animate-css="bounceTwo" />
+      <Socials v-animate-css="bounceThree" />
+      <Nav v-animate-css="bounceFour" />
+  </main>
 </template>
 
 <script>
 import Header from "../components/feature/Header";
+import Description from '../components/feature/Description';
 import Socials from "../components/feature/Socials";
 import Nav from "../components/core/Nav";
-import Copyright from "../components/core/Copyright";
 
 export default {
   name: "home",
@@ -19,7 +19,7 @@ export default {
     Header,
     Socials,
     Nav,
-    Copyright
+    Description
   },
   data() {
     return {
@@ -48,22 +48,49 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+
+main {
+    max-width: 1100px;
+    min-width: 400px;
+    width: fit-content;
+    margin: 0 auto;
 }
 
-.home-content {
-  font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  overflow: hidden;
+header {
+  @media only screen and (max-width: 420px) {
+    margin-left: 35px;
+  }
 
-  @media only screen and (max-width: 900px) and (max-height: 550px) {
-    height: 100%;
+  @media only screen and (max-width: 825px) and (max-height: 420px) {
+    margin-top: 50px;
+  }
+
+  @media only screen and (max-width: 823px) and (max-height: 411px) {
+    margin-top: 250px;
+  }
+
+  @media only screen and (max-width: 812px) and (max-height: 375px) {
+    margin-top: 50px;
+  }
+
+  @media only screen and (max-width: 736px) and (max-height: 414px) {
+    margin-top: 250px;
+  }
+
+  @media only screen and (max-width: 705px) and (max-height: 400px) {
+    margin-top: 50px;
+  }
+}
+
+section {
+  @media only screen and (max-width: 420px) {
+    margin-left: 35px;
+  }
+}
+
+nav {
+  @media only screen and (max-width: 420px) {
+    margin-left: 35px;
   }
 }
 </style>
