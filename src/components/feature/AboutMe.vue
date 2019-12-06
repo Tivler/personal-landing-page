@@ -26,7 +26,11 @@ export default {
 <style lang="scss" scoped>
   .about {
     color: #dcdcdc;
-
+    
+    @media only screen and (max-width: 800px) {
+        margin-left: 35px;
+    }
+  
     &__text {
       font-family: 'Helvetica Neue' , sans-serif;
       line-height: 1.6;
@@ -40,6 +44,17 @@ export default {
         line-height: 1.6;
         margin: 10px 0 10px 15px;
       }
+
+      @media only screen and (max-width: 800px) {
+        font-size: .85em;
+        width: 90%;
+      }
+
+       @media only screen and (max-width: 500px) {
+        font-size: .72em;
+        width: 37%;
+        margin: 4px 0 4px 20px;
+      }
     }
 
     &--wrapper {
@@ -49,6 +64,12 @@ export default {
         @media only screen and (max-width: 1440px) and (max-height: 800px) {
             margin-bottom: 10px;
             margin-top: 15px;
+        }
+
+        @media only screen and (max-width: 500px) {
+          margin-left: 0px;
+          margin-top: 6px;
+          margin-bottom: 6px;
         }
     }
 }

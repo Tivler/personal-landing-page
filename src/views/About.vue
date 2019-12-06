@@ -2,19 +2,19 @@
   <main>
       <AboutMe v-animate-css="bounceOne" />
       <Socials v-animate-css="bounceTwo" />
-      <Nav v-animate-css="bounceThree"/>
+      <AboutNav class="nav-component" v-animate-css="bounceThree"/>
   </main>
 </template>
 
 <script>
-import Nav from '../components/core/Nav';
+import AboutNav from '../components/core/AboutNav';
 import AboutMe from '../components/feature/AboutMe';
 import Socials from '../components/feature/Socials';
 
 export default {
     name: 'About',
     components: {
-        Nav,
+        AboutNav,
         AboutMe,
         Socials
     },
@@ -47,5 +47,11 @@ main {
     min-width: 400px;
     width: 775px;
     margin: 0 auto;
+}
+
+.nav-component {
+     @media only screen and (max-width: 800px) {
+        margin-left: 35px;
+    }
 }
 </style>

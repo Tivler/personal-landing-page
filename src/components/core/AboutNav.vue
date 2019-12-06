@@ -22,10 +22,9 @@
 </template>
 
 <script>
-// import NavLink from '../layout/NavLink';
 
 export default {
-  name: "Nav"
+  name: "AboutNav"
 };
 </script>
 
@@ -40,7 +39,8 @@ export default {
     }
 
      @media only screen and (max-width: 500px) {
-            margin-top: 15px;
+            margin-top: 0px;
+            margin-left: 0;
             margin-bottom: 15px;
     }
 

@@ -48,6 +48,10 @@ export default {
         margin-bottom: 0;
     }
 
+    @media only screen and (max-width: 800px) {
+        margin-left: 60px;
+    }
+
     @media only screen and (max-width: 500px) {
            display: none;
     }
