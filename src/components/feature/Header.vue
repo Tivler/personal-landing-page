@@ -73,7 +73,7 @@ export default {
 .label {
    
     &--link {
-        color: darkgoldenrod;
+        color: mediumpurple;
         font-weight: 400;
         text-decoration: none;
         transition: ease 0.7s;

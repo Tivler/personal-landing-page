@@ -33,7 +33,7 @@ export default {
 
   #app {
     font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background-color: ghostwhite;
+    background-color: #fefefa;
     height: 100%;
     width: 100%;
   }

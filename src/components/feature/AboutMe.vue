@@ -51,7 +51,7 @@ export default {
         &__title {
             font-size: 2.5em;
             letter-spacing: -1px;
-            color: darkgoldenrod;
+            color: mediumpurple;
             font-weight: 700;
             margin: 0 0 15px 0;
             text-align: center;
