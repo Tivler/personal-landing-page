@@ -16,7 +16,7 @@ export default {
     data () {
         return {
             name: 'Thomas McKyer',
-            title: 'Apprentice Software Engineer at',
+            title: 'Junior Software Engineer at',
             job: 'Road To Hire'
         }
     }
