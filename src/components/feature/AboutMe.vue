@@ -2,10 +2,9 @@
   <section class="about">
     <h2 class="about__title">About Me</h2>
     <p class="about__text">
-      Hey, I’m Thomas! I am a Software Developer - I was born and raised here in Charlotte, I’m currently studying and working with Road To Hire as an Apprentice Software Developer. 
-      I grew up like most people from my generation with a controller in one hand and an iPhone in the other, so without saying I’ve always had an interest in technology and a strong passion for creating. 
-      Over the past few years I’ve been developing my skills as a Front End Developer learning all the ins and outs of web development specifically building unique and intuitive user experiences via Front End Frameworks like Vue and React. 
-      I keep myself busy building interactive web applications with friends and helping others find a passion for technology as well as the time I spend with Road To Hire learning more about the industry. 
+      Hey, I’m Thomas! - I was born and raised here in Charlotte, I’m currently working at Lowe's as an Associate Software Engineer. 
+      I grew up like most people my age with a controller in hand and a computer screen in front of me playing video games for hours on end, so without saying I’ve always had an interest in technology and a strong passion for creating. 
+      Over the past few years I've been busy with my work with Lowe's as well as branching out on my own to work on some freelance opportunites to sharpen my skills with different technologies. if you want to keep up with me connect with me on linkedIn.
     </p>
   </section>
 </template>

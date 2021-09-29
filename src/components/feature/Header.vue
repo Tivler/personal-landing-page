@@ -4,7 +4,7 @@
     <h1 class="head__title">{{ name }}</h1>
     <p class="head__subtitle">
         {{ title }}
-      <span class="label"><a class="label--link" rel="noopener noreferrer" href="https://www.roadtohire.org/" target="_blank">{{ job }}</a></span>
+      <span class="label"><a class="label--link" rel="noopener noreferrer" href="https://www.lowes.com/" target="_blank">{{ job }}</a></span>
     </p>
   </header>
 </template>
@@ -16,8 +16,8 @@ export default {
     data () {
         return {
             name: 'Thomas McKyer',
-            title: 'Junior Software Engineer at',
-            job: 'Road To Hire'
+            title: 'Associate Software Engineer at',
+            job: "Lowe's"
         }
     }
 }

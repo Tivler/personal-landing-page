@@ -1,0 +1,29 @@
+.footer {
+    margin: 75px 0 0 0;
+    width: 100%;
+    max-width: 975px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__icon {
+        background-color: #474747;
+        color: #fff;
+        border-radius: 100%;
+        padding: 6px;
+        font-size: 1.1em;
+
+        &--wrapper {
+
+        }
+
+        &--divider {
+            margin-left: 10px;
+        }
+    }
+
+    &__copyright {
+        font-size: 75%;
+        opacity: .6;
+    }
+}
