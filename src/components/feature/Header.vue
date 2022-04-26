@@ -4,7 +4,7 @@
     <h1 class="head__title">{{ name }}</h1>
     <p class="head__subtitle">
         {{ title }}
-      <span class="label"><a class="label--link" rel="noopener noreferrer" href="https://www.lowes.com/" target="_blank">{{ job }}</a></span>
+      <span class="label"><a class="label--link" rel="noopener noreferrer" href="https://www.redventures.com/" target="_blank">{{ job }}</a></span>
     </p>
   </header>
 </template>
@@ -17,7 +17,7 @@ export default {
         return {
             name: 'Thomas McKyer',
             title: 'Associate Software Engineer at',
-            job: "Lowe's"
+            job: "Red Ventures"
         }
     }
 }
@@ -73,7 +73,7 @@ export default {
 .label {
    
     &--link {
-        color: mediumpurple;
+        color: red;
         font-weight: 400;
         text-decoration: none;
         transition: ease 0.7s;

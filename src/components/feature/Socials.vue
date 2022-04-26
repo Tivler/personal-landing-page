@@ -57,7 +57,7 @@ export default {
 
     &--icon {
         font-size: 1.7em;
-        color: mediumpurple;
+        color: red;
         margin-right: 7px;
     }
 }

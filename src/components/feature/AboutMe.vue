@@ -2,9 +2,9 @@
   <section class="about">
     <h2 class="about__title">About Me</h2>
     <p class="about__text">
-      Hey, I’m Thomas! - I was born and raised here in Charlotte, I’m currently working at Lowe's as an Associate Software Engineer. 
+      Hey, I’m Thomas! - I was born and raised here in Charlotte, I’m currently working at Red Ventures as an Associate Software Engineer. 
       I grew up like most people my age with a controller in hand and a computer screen in front of me playing video games for hours on end, so without saying I’ve always had an interest in technology and a strong passion for creating. 
-      Over the past few years I've been busy with my work with Lowe's as well as branching out on my own to work on some freelance opportunites to sharpen my skills with different technologies. if you want to keep up with me connect with me on linkedIn.
+      Over the past few years I've been busy with my work with RV as well as branching out on my own to work on some freelance opportunites to sharpen my skills with different technologies. if you want to keep up with me connect with me on linkedIn.
     </p>
   </section>
 </template>
@@ -50,7 +50,7 @@ export default {
         &__title {
             font-size: 2.5em;
             letter-spacing: -1px;
-            color: mediumpurple;
+            color: red;
             font-weight: 700;
             margin: 0 0 15px 0;
             text-align: center;

@@ -1,6 +1,6 @@
 <template>
   <footer class="footer">
-    <p class="footer__copyright">Thomas McKyer © 2021</p>
+    <p class="footer__copyright">Thomas McKyer © 2022</p>
   </footer>
 </template>
 

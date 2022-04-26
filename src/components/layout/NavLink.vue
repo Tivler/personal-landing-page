@@ -69,7 +69,7 @@ export default {
     height: 1px;
     content: '.';
     color: transparent;
-    background: mediumpurple;
+    background: red;
     visibility: none;
     border-radius: 3px;
     opacity: 0;
